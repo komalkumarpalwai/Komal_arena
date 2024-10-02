@@ -1,0 +1,9 @@
+.contact{
+    background-color: rgb(253, 253, 253);
+    color: orangered;
+    border: 1px solid orangered;
+}
+.contact:hover{
+    background-color: orangered;
+    color: white;
+}

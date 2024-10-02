@@ -1,0 +1,203 @@
+
+.contact {
+    background-color: rgb(253, 253, 253);
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.contact:hover {
+    background-color: orangered;
+    color: white;
+}
+.font{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 6vh;
+color: black;
+}
+.introduction{
+    background-color: rgba(255, 68, 0, 0.818);
+    color: white;
+ margin-left: 0px;
+}
+.skills{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    min-height: 80vh;
+    width: 90vw;
+    margin-left: 10vh;
+    margin-top: -20vh;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.214);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .skills {
+        background-color: rgb(255, 255, 255);
+        height: auto;
+        min-height: 80vh;
+        width: 90vw;
+        margin-left: 1vh;
+        margin-top: -20vh;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        border: 0.5px solid rgba(0, 0, 0, 0.214);
+    }
+}
+.social {
+    color: black;
+}
+.social a:hover{
+    color: orangered;
+}
+.service {
+	border: 1px solid #e2e8f0;
+	border-radius: 7px;
+	box-shadow: 0 0.375rem 1.5rem 0 rgba(140, 152, 164, 0.125);
+	margin-top: 88px;
+	padding-bottom: 30px;
+}
+.service-hex {
+	margin-top: 30px;
+	width: 104px;
+	height: 60px;
+	background-color:#ea4020;
+	position: relative;
+	top: -55px;
+	left: 40%;
+}
+.service-hex:before {
+	content: " ";
+	width: 0;
+	height: 0;
+	border-bottom: 30px solid #ea4020;
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+	position: absolute;
+	top: -30px;
+}
+.service-hex:after {
+	content: "";
+	width: 0;
+	position: absolute;
+	bottom: -30px;
+	border-top: 30px solid #ea4020;
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+}
+.service-hex i {
+	position: absolute;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	left: 0px;
+	right: 0px;
+	top: 10px;
+}
+.service-inner {
+	text-align: center;
+	padding: 5px 44px;
+	font-size: 17px;
+}
+.service-inner h3 {
+	font-size: 23px;
+}
+.service-inner p {
+	font-size:16px;
+	line-height:28px;
+	
+}
+@media only screen and (max-width:768px) {
+.service-hex {
+ left:38%;
+}
+}
+.shadow {
+    box-shadow: 0 4px 15px rgba(234, 64, 32, 0.5); /* Orange shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition effect */
+}
+
+.shadow:hover {
+    box-shadow: 0 16px 20px rgba(234, 64, 32, 0.7); /* Darker shadow on hover */
+}
+html.lenis, html.lenis body {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-smooth iframe {
+    pointer-events: none;
+  }
+  .workwithme i{
+    color: orangered;
+  }
+  .footer{
+    background-color:  rgba(255, 68, 0, 0.818);
+  }
+ /* Custom Scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ea4020; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c62828; /* Color of the scrollbar thumb on hover */
+}
+
+/* Custom Scrollbar for Firefox */
+* {
+  scrollbar-width: thin; /* Set scrollbar width to thin */
+  scrollbar-color: #ea4020 #f1f1f1; /* Thumb color and track color */
+}
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    padding: 1rem 0; /* Adjust padding */
+  }
+
+  nav img {
+    width: 6rem; /* Smaller logo */
+    height: 4.5rem; /* Smaller logo */
+    margin-left: 0; /* Remove left margin */
+    margin-bottom: 0.5rem; /* Space below the logo */
+  }
+
+  nav .contact {
+    margin-right: 0; /* Remove right margin */
+    width: 100%; /* Full-width button */
+    text-align: center; /* Center text */
+    margin-top: 0.5rem; /* Adjust top margin */
+  }
+}
